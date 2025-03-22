@@ -1,0 +1,271 @@
+name: Project12
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /Project12/src
+        type: javaClasspath
+  - name: 'Compound Tests'
+    resources: 
+  - name: Datasets
+    resources: 
+  - name: 'JMeter Tests'
+    resources: 
+  - name: Locations
+    resources: 
+  - name: Results
+    resources: 
+      - name: PerfTestScript27_1742459764705.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1742459764705
+          tags: 
+          testId: A1F00566482283F0DF02B73330303362
+          testName: PerfTestScript27
+        dependencies: 
+          - path: /Project12/Results/PerfTestScript27_1742459764705.xmoebreport
+            type: statsSessionAsset
+          - path: /Project12/Results/PerfTestScript27_1742459764705_orch!system.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript27_1742459764705_orch!system.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript27_1742459764705_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript27_1742459764705_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript27_1742459764982.executiondlr
+            type: statsSessionAsset
+      - name: PerfTestScript27_1742459764705.xmoebreport
+      - name: PerfTestScript27_1742459764705_orch!system.mstats
+      - name: PerfTestScript27_1742459764705_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: PerfTestScript27_1742459764705_perf!localhost.mstats
+      - name: PerfTestScript27_1742459764705_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: PerfTestScript27_1742459764982.executiondlr
+      - name: PerfTestScript2_1742459557638.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1742459557638
+          tags: 
+          testId: A1F00565D00AA640DF02B73330303362
+          testName: PerfTestScript2
+        dependencies: 
+          - path: /Project12/Results/PerfTestScript2_1742459557638.xmoebreport
+            type: statsSessionAsset
+          - path: /Project12/Results/PerfTestScript2_1742459557638_orch!system.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript2_1742459557638_orch!system.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript2_1742459557638_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript2_1742459557638_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/PerfTestScript2_1742459558502.executiondlr
+            type: statsSessionAsset
+      - name: PerfTestScript2_1742459557638.xmoebreport
+      - name: PerfTestScript2_1742459557638_orch!system.mstats
+      - name: PerfTestScript2_1742459557638_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: PerfTestScript2_1742459557638_perf!localhost.mstats
+      - name: PerfTestScript2_1742459557638_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: PerfTestScript2_1742459558502.executiondlr
+      - name: VUSchedule_1742601037349.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1742601037349
+          tags: 
+          testId: A1F006AEECB5D0E0C4DCB46232316365
+          testName: VUSchedule
+        dependencies: 
+          - path: /Project12/Results/VUSchedule_1742601037349.xmoebreport
+            type: statsSessionAsset
+          - path: /Project12/Results/VUSchedule_1742601037349_orch!system.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601037349_orch!system.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601037349_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601037349_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601067477.executiondlr
+            type: statsSessionAsset
+          - path: /Project12/Schedules/VUSchedule.testsuite
+            type: statsSessionTest
+      - name: VUSchedule_1742601037349.xmoebreport
+      - name: VUSchedule_1742601037349_orch!system.mstats
+      - name: VUSchedule_1742601037349_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUSchedule_1742601037349_perf!localhost.mstats
+      - name: VUSchedule_1742601037349_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUSchedule_1742601067477.executiondlr
+      - name: VUSchedule_1742601306964.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1742601306964
+          tags: 
+          testId: A1F006AEECB5D0E0C4DCB46232316365
+          testName: VUSchedule
+        dependencies: 
+          - path: /Project12/Results/VUSchedule_1742601306964_orch!system.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601306964_orch!system.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601306964_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601306964_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /Project12/Results/VUSchedule_1742601316101.executiondlr
+            type: statsSessionAsset
+          - path: /Project12/Schedules/VUSchedule.testsuite
+            type: statsSessionTest
+      - name: VUSchedule_1742601306964_orch!system.mstats
+      - name: VUSchedule_1742601306964_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUSchedule_1742601306964_perf!localhost.mstats
+      - name: VUSchedule_1742601306964_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUSchedule_1742601316101.executiondlr
+  - name: Schedules
+    resources: 
+      - name: VUSchedule.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.4.0
+        properties: 
+          description: 'Stages:
+
+	users=12; duration=Run Until Finished
+
+Guest users: Group Size 50.0 percent
+
+	Test(s): guest1,guest2,guest3
+
+Consumers: Group Size 50.0 percent
+
+	Test(s): Consumer
+
+'
+          name: VUSchedule
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1F006AEECB5D0E0C4DCB46232316365
+        dependencies: 
+          - path: /Project12/Tests/Consumer.testsuite
+            type: scheduleInvokedTest
+          - path: /Project12/Tests/guest1.testsuite
+            type: scheduleInvokedTest
+          - path: /Project12/Tests/guest2.testsuite
+            type: scheduleInvokedTest
+          - path: /Project12/Tests/guest3.testsuite
+            type: scheduleInvokedTest
+  - name: Tests
+    resources: 
+      - name: Consumer.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.4.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1F006AFD8EF4FE4C4DCB46232316365
+        dependencies: 
+          - path: /Project12/Tests/guest3.recsession
+            type: testRecsession
+      - name: PerfTestScript2(2).recdata
+      - name: PerfTestScript2(2).recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Project12/Tests/PerfTestScript2(2).recdata
+            type: recsessionRecdata
+      - name: PerfTestScript2.recdata
+      - name: PerfTestScript2.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Project12/Tests/PerfTestScript2.recdata
+            type: recsessionRecdata
+      - name: PerfTestScript2.testsuite
+        missing: true
+      - name: PerfTestScript27.recdata
+      - name: PerfTestScript27.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Project12/Tests/PerfTestScript27.recdata
+            type: recsessionRecdata
+      - name: PerfTestScript27.testsuite
+        missing: true
+      - name: guest1(2).recdata
+      - name: guest1(2).recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Project12/Tests/guest1(2).recdata
+            type: recsessionRecdata
+      - name: guest1.recdata
+      - name: guest1.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Project12/Tests/guest1.recdata
+            type: recsessionRecdata
+      - name: guest1.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.4.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1F006AE75EF0440C4DCB46232316365
+        dependencies: 
+          - path: /Project12/Tests/guest1(2).recsession
+            type: testRecsession
+      - name: guest2.recdata
+      - name: guest2.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Project12/Tests/guest2.recdata
+            type: recsessionRecdata
+      - name: guest2.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.4.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1F006AE9DA3F6D0C4DCB46232316365
+        dependencies: 
+          - path: /Project12/Tests/guest2.recsession
+            type: testRecsession
+      - name: guest3.recdata
+      - name: guest3.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Project12/Tests/guest3.recdata
+            type: recsessionRecdata
+      - name: guest3.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.4.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1F006AEDAAC81A0C4DCB46232316365
+        dependencies: 
+          - path: /Project12/Tests/guest3.recsession
+            type: testRecsession
+  - name: pectran_com_8df.ma
+    type: moeb.applicationPackage
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: Consumer_Test_A1F006AFD8EF4FE4C4DCB46232316365.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Guest1_Test_A1F006AE75EF0440C4DCB46232316365.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Guest2_Test_A1F006AE9DA3F6D0C4DCB46232316365.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Guest3_Test_A1F006AEDAAC81A0C4DCB46232316365.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: PerfTestScript27_Test_A1F00566482283F0DF02B73330303362.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: PerfTestScript2_Test_A1F00565D00AA640DF02B73330303362.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: VUSchedule_Schedule_A1F006AEECB5D0E0C4DCB46232316365.java
+            type: com.ibm.rational.test.lt.generatedCode
