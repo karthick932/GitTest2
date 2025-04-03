@@ -1,5 +1,34 @@
 {
   "name" : "Datadef",
   "description" : "deffromdatabranch",
-  "fields" : [ ]
+  "fields" : [ {
+    "name" : "Enumerator",
+    "generatorValues" : {
+      "name" : "Enumerator",
+      "version" : "0.0.1",
+      "categoryId" : "00000",
+      "parentGenerator" : null,
+      "globalProperties" : {
+        "randomDistribution" : "false",
+        "blankPercentage" : "0"
+      },
+      "configurations" : [ {
+        "name" : "Default",
+        "weightage" : 100.0,
+        "properties" : {
+          "list" : [ {
+            "value" : "RED",
+            "distribution" : 20
+          }, {
+            "value" : "GREEN",
+            "distribution" : 30
+          }, {
+            "value" : "BLUE",
+            "distribution" : 50
+          } ],
+          "random" : true
+        }
+      } ]
+    }
+  } ]
 }
