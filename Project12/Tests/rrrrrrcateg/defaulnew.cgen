@@ -1,0 +1,27 @@
+{
+  "name" : "defaulnew",
+  "version" : "0.0.1",
+  "categoryId" : "d4906df3-5f84-443a-906d-f35f84d43ad7",
+  "parentGenerator" : "Enumerator",
+  "globalProperties" : {
+    "randomDistribution" : "false",
+    "blankPercentage" : "0"
+  },
+  "configurations" : [ {
+    "name" : "Defaultrrrrr",
+    "weightage" : 100.0,
+    "properties" : {
+      "list" : [ {
+        "value" : "RED",
+        "distribution" : 20
+      }, {
+        "value" : "GREEN",
+        "distribution" : 30
+      }, {
+        "value" : "BLUE",
+        "distribution" : 50
+      } ],
+      "random" : true
+    }
+  } ]
+}
