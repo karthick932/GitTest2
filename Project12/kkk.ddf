@@ -1,5 +1,76 @@
 {
   "name" : "kkk",
   "description" : "tst",
-  "fields" : [ ]
+  "fields" : [ {
+    "name" : ""
+  }, {
+    "name" : "Dataset",
+    "generatorValues" : {
+      "name" : "Dataset",
+      "version" : "0.0.1",
+      "categoryId" : "00000",
+      "parentGenerator" : null,
+      "globalProperties" : {
+        "blankPercentage" : "0"
+      },
+      "configurations" : [ {
+        "name" : "Default",
+        "weightage" : 100.0,
+        "properties" : {
+          "filePath" : "",
+          "repositoryUrl" : "",
+          "column" : ""
+        }
+      } ]
+    }
+  }, {
+    "name" : "Dataset_2",
+    "generatorValues" : {
+      "name" : "Dataset",
+      "version" : "0.0.1",
+      "categoryId" : "00000",
+      "parentGenerator" : null,
+      "globalProperties" : {
+        "blankPercentage" : "0"
+      },
+      "configurations" : [ {
+        "name" : "Default",
+        "weightage" : 100.0,
+        "properties" : {
+          "filePath" : "",
+          "repositoryUrl" : "",
+          "column" : ""
+        }
+      } ]
+    }
+  }, {
+    "name" : "Enumerator",
+    "generatorValues" : {
+      "name" : "Enumerator",
+      "version" : "0.0.1",
+      "categoryId" : "00000",
+      "parentGenerator" : null,
+      "globalProperties" : {
+        "randomDistribution" : "false",
+        "blankPercentage" : "0"
+      },
+      "configurations" : [ {
+        "name" : "Defaultrrrr",
+        "weightage" : 100.0,
+        "properties" : {
+          "list" : [ {
+            "value" : "RED",
+            "distribution" : 20
+          }, {
+            "value" : "GREEN",
+            "distribution" : 30
+          }, {
+            "value" : "BLUE",
+            "distribution" : 50
+          } ],
+          "random" : true
+        }
+      } ]
+    }
+  } ]
 }
