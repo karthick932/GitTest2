@@ -2,28 +2,6 @@
   "name" : "datadef2",
   "description" : "descr444",
   "fields" : [ {
-    "name" : "testtest",
-    "repositoryUrl" : "",
-    "filePath" : "",
-    "generatorValues" : {
-      "name" : "Dataset",
-      "version" : "0.0.1",
-      "categoryId" : "00000",
-      "parentGenerator" : null,
-      "globalProperties" : {
-        "blankPercentage" : "0"
-      },
-      "configurations" : [ {
-        "name" : "Default",
-        "weightage" : 100.0,
-        "properties" : {
-          "filePath" : "",
-          "repositoryUrl" : "",
-          "column" : ""
-        }
-      } ]
-    }
-  }, {
     "name" : "Boolean",
     "generatorValues" : {
       "name" : "Boolean",
@@ -70,6 +48,43 @@
           "includeSpecialCharacters" : "false",
           "includeDigits" : "false"
         }
+      } ]
+    }
+  }, {
+    "name" : "Textrrr",
+    "generatorValues" : {
+      "name" : "Text",
+      "version" : "0.0.1",
+      "categoryId" : "00000",
+      "parentGenerator" : null,
+      "globalProperties" : {
+        "randomDistribution" : "false",
+        "duplicatesAllowed" : "true",
+        "blankPercentage" : "0"
+      },
+      "configurations" : [ {
+        "name" : "Default",
+        "weightage" : 100.0,
+        "properties" : {
+          "textType" : "Words",
+          "count" : 10
+        }
+      } ]
+    }
+  }, {
+    "name" : "UUID",
+    "generatorValues" : {
+      "name" : "UUID",
+      "version" : "0.0.1",
+      "categoryId" : "00000",
+      "parentGenerator" : null,
+      "globalProperties" : {
+        "blankPercentage" : "0"
+      },
+      "configurations" : [ {
+        "name" : "Default",
+        "weightage" : 100.0,
+        "properties" : null
       } ]
     }
   } ]
